@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial"
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Portfolio Website</title>
+ </head>
+ <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+       <nav class="nav container">
+        <a href="#" class="nav__logo">Lehar</a>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li>
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li>
+                    <a href="#work" class="nav__link">Work</a>
+                </li>
+                <li>
+                    <a href="#info" class="nav__link">My Info</a>
+                </li>
+                <li>
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav__link">Contact Me</a>
+                </li>
+            </ul>
+            <!--Close button-->
+            <div class="nav__close" id="nav-close">
+                <i class="ri-close-large-line"></i>
+            </div>
+        </div>
+
+        <!--Toggle button-->
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+        </div>
+       </nav>
+    </header>
+    
+    <!--==================== MAIN ====================-->
+    <main class="main">
+       <!--==================== HOME ====================-->
+       <section class="home section" id="home">
+        <div class="home__container container grid">
+            <img src="image/me.jpeg" alt="image" class="home__img">
+        <div class="home__data">
+            <h1 class="home__name">Lehar<br>Agrawal</h1>
+            <h3 class="home__profession">Web Developer</h3>
+        </div>
+        <a href="#work" class="home__scroll">
+            <div class="home__scroll-box">
+                <i class="ri-arrow-down-line"></i>
+            </div>
+            <span class="home__scroll-text">Recent Works</span>
+            </a>
+        </div>
+       </section>
+
+       <!--==================== WORKS ====================-->
+       <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="https://lehar1107.github.io/Cafeteria/" target="_blank" class="work__link">
+                        <h2 class="work__title">Caffe Website</h2>
+                        <p class="work__description">
+                            I have created a caffe website using HTML, CSS, JavaScript it's a static website and already present on my github. you can see how it looks.
+                        </p>
+                        <img src="image/Screenshot 2024-12-12 010932.png" alt="" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="https://github.com/Lehar1107/nexus_jenkins_docker_springboot.git" target="_blank" class="work__link">
+                        <h2 class="work__title">Automated Deployment and Infrastructure Management for Java Applications</h2>
+                        <p class="work__description">
+                            Whole decription is present in my Github repository and many more projects i have completed that was also present.
+                        </p>
+                        <img src="image/w2.png" alt="" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <!-- <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Restaurant Website</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in this portfolio.
+                        </p>
+                        <img src="image/Get the We Heart It app!.jpeg" alt="" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article> -->
+                <!-- <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Restaurant Website</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in this portfolio.
+                        </p>
+                        <img src="image/Get the We Heart It app!.jpeg" alt="" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Restaurant Website</h2>
+                        <p class="work__description">
+                            Short description of the project that was carried out in this portfolio.
+                        </p>
+                        <img src="image/Get the We Heart It app!.jpeg" alt="" class="work__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article> -->
+            </div>
+       </section>
+
+       <!--==================== INFO ====================-->
+       <section class="info section" id="info">
+        <h2 class="section__title">MY INFO</h2>
+
+        <div class="info__container container grid">
+            <!--AbOUT-->
+            <div class="about grid">
+                <div class="about__content">
+                    <h3 class="info__title">About Me</h3>
+                    <p class="about__description">
+                        Currently, I am a fresher and skilled in many technologies and i am looking for an opportunity to use me best ability towards the company.
+                        A fresher can be mould in any direction just <b>understand their passion towards the company</b>.
+                        Passionate about creating front-end <b>websites with beautiful interfaces</b>.I am fresher and completed my<b>MCA with several projects completed as present in the resume.</b>
+                    </p>
+                    <a href="resume/LeharAgrawal_Resume.pdf" download="" target="_blank" class="button about__button">Download CV</a><br><br>
+                    <a href="resume/internship.pdf" download="" target="_blank" class="button about__button">Internship</a><br><br>
+                    <a href="resume/udemy.jpg" download="" target="_blank" class="button about__button">Udemy</a><br><br>
+                    <a href="resume/java.jpg" download="" target="_blank" class="button about__button">Java Full Stack</a>
+                </div>
+                <img src="image/me.jpeg" alt="image" class="about__img">
+            </div>
+
+
+            <!--Experience-->
+            <div class="experience">
+                <h3 class="info__title">Fresher</h3>
+                <div class="experience__content grid">                    
+                    <div class="experience__data grid">
+                        <h2 class="experience__company">Present Work</h2>  
+                        <div>
+                          <h3 class="experience__profession">Web Devloper</h3>
+                          <span class="experience__date">Present</span>
+                          <p class="experience__description">
+                              I just design static web pages for my friends and famliy.
+                          </p>
+                        </div>
+                      </div>
+
+                    <div class="experience__data grid">
+                      <h2 class="experience__company">8Bit System pvt. ltd</h2>  
+                      <div>
+                        <h3 class="experience__profession">DevOps Engineer</h3>
+                        <span class="experience__date">10/Jan/2024 - 10/05/2024</span>
+                        <p class="experience__description">
+                            I have completed my internship from 8Bit System as DevOps Engineer and learn many and new technologies.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="experience__data grid">
+                        <h2 class="experience__company">8Bit System pvt. ltd</h2>  
+                        <div>
+                          <h3 class="experience__profession">Java Developer</h3>
+                          <span class="experience__date">10/Jan/2024 - 10/05/2024</span>
+                          <p class="experience__description">
+                              I have completed my internship from 8Bit System as well as Java Developer and under the work with Spring Boot and Rest APIs.
+                          </p>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+            
+            <!--skills-->
+            <div class="skills">
+                <h3 class="info__title">Skills</h3>
+
+                <div class="skills__content grid">
+                    <div class="skills__box">
+                        <img src="image/html.jpg" alt="image" class="skills__img">
+                        <span class="skills__name">HTML</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/css.png" alt="image" class="skills__img">
+                        <span class="skills__name">CSS</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/js.webp" alt="image" class="skills__img">
+                        <span class="skills__name">JavaScript</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/java.png" alt="image" class="skills__img">
+                        <span class="skills__name">Java</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/springboot.png" alt="image" class="skills__img">
+                        <span class="skills__name">SpringBoot</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/C.png" alt="image" class="skills__img">
+                        <span class="skills__name">C#.Net</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/sql.png" alt="image" class="skills__img">
+                        <span class="skills__name">MySQL</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/python.png" alt="image" class="skills__img">
+                        <span class="skills__name">Python Scripts</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/linux.png" alt="image" class="skills__img">
+                        <span class="skills__name">Linux(OS)</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/docker.png" alt="image" class="skills__img">
+                        <span class="skills__name">Docker</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/jenkins.png" alt="image" class="skills__img">
+                        <span class="skills__name">Jenkins</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/ansible.png" alt="image" class="skills__img">
+                        <span class="skills__name">Ansible</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/kubernetes.png" alt="image" class="skills__img">
+                        <span class="skills__name">Kubernetes</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/github.png" alt="image" class="skills__img">
+                        <span class="skills__name">Github</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/kafka.jpg" alt="image" class="skills__img">
+                        <span class="skills__name">Apache Kafka</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/argocd.png" alt="image" class="skills__img">
+                        <span class="skills__name">ArgoCD</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/sonatype.svg" alt="image" class="skills__img">
+                        <span class="skills__name">Nexus</span>
+                    </div>
+                    <div class="skills__box">
+                        <img src="image/elk-stack.png" alt="image" class="skills__img">
+                        <span class="skills__name">Elk Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!--==================== SERVICES ====================-->
+       <section class="services section" id="services">
+        <h2 class="section__title">SERVICES</h2>
+
+        <div class="services__container container grid">
+            <article class="services__card">
+                <i class="ri-code-box-line services__icon"></i>
+                <h3 class="services__title">Web Developer</h3>
+                <p class="services__description">
+                    In MCA i have create an Online Clothing Website Divatos in which techs i have used HTML, CSS, BootStrap, JavaScript and in backend i have used C#.Net.
+                </p>
+            </article>
+
+            <article class="services__card">
+                <i class="ri-layout-2-line services__icon"></i>
+                <h3 class="services__title">DevOps Engineer</h3>
+                <p class="services__description">
+                    In my internship timeperiod i have worked with jenkins pipline, Docker Containerization as well as infrastructure with Ansible and automated deployment using with Kubernetes.
+                </p>
+            </article>
+
+            <article class="services__card">
+                <i class="ri-java-line"></i>
+                <h3 class="services__title">Full Stack Developer</h3>
+                <p class="services__description">
+                    During my internship i have also work with Spring Boot Applications and REST APIs.
+                </p>
+            </article>
+
+        </div>
+       </section>
+
+       <!--==================== CONTACT ====================-->
+       <section class="contact section" id="contact">
+        <h2 class="section__title">CONTACT ME</h2>
+
+        <div class="contact__container container grid">
+            <form action="" class="contact__form grid" id="contact-form">
+                <div class="contact__group grid">
+                    <input type="text" name="user_name" placeholder="Names" required class="contact__input">
+                    <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                </div>
+                <textarea name="user_message" placeholder="Message" required class="contact__input contact__area"></textarea>
+
+                <button type="submit" class="button contact__button">Send Message</button>
+                <p class="contact__message" id="contact-message"></p>
+            </form>
+
+            <div class="contact__social grid">
+
+                <a href="https://www.linkedin.com/in/lehar-agrawal/" target="_blank" class="contact__social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Lehar1107" target="_blank" class="contact__social-link">
+                    <i class="ri-github-fill"></i>
+                    <span>Github</span>
+                </a>
+                <a href="https://join.skype.com/invite/q0sUDxsdm46U" target="_blank" class="contact__social-link">
+                    <i class="ri-skype-fill"></i>
+                    <span>Skype</span>
+                </a>
+
+                <a href="https://www.facebook.com/lehar.agrawal.5/" target="_blank" class="contact__social-link">
+                    <i class="ri-facebook-circle-fill"></i>
+                    <span>Facebook</span>
+                </a>
+
+
+            </div>
+
+        </div>
+       </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Lehar Agrawal
+            </span>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="js/scrollreveal.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+    
+ </body>
+</html>
