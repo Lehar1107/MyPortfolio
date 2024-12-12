@@ -659,7 +659,16 @@
   .contact__container{
     grid-template-columns: 350px;
     justify-content: center;
+  }
+  .about__description{
+    width: 100%;
   } 
+  .skills__img{
+    grid-template-columns: repeat(3, max-content);
+  }
+  .services__description{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
